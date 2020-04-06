@@ -11,7 +11,7 @@ total_epochs = 20
 epsilon = 1e-3
 
 blocks = []
-with open('/Users/ali/Downloads/Train_Arabic_Digit.txt') as f:
+with open('/Users/Salar/Downloads/Train_Arabic_Digit.txt') as f:
     current_block = []
     for line in f:
         if line.strip():
