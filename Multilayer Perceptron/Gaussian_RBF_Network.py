@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import pickle
 
 def load_dataset():
-    train_data = np.loadtxt("/Users/ali/Downloads/mnist_train.csv", delimiter=',')
-    test_data = np.loadtxt("/Users/ali/Downloads/mnist_test.csv", delimiter=',')
+    train_data = np.loadtxt("/Users/Salar/Downloads/mnist_train.csv", delimiter=',')
+    test_data = np.loadtxt("/Users/Salar/Downloads/mnist_test.csv", delimiter=',')
     tr_data = np.asarray(train_data[:,1:])
     tr_label = np.asarray(train_data[:,:1]).astype(int)
 
